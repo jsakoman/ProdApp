@@ -1,8 +1,7 @@
-<!-- src/components/Materials.vue -->
 <template>
     <CrudComponent 
-      title="Materijali"
-      apiUrl="http://localhost:3000/api/materials" 
+      title="Workplace"
+      apiUrl="http://localhost:3000/api/workplace" 
     />
   </template>
   
