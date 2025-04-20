@@ -1,12 +1,16 @@
-<script setup>
-import Home from './components/Home.vue'
-</script>
-
+<!-- src/App.vue -->
 <template>
-
-  <Home/>
+  <div id="app">
+    <Home />
+    <Materials />
+  </div>
 </template>
 
-<style scoped>
+<script setup>
+import Home from './Components/Home.vue'
+import Materials from './components/Materials.vue'
+</script>
+
+<style>
 
 </style>
